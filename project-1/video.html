@@ -4,20 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>video</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      ol{
+        margin-right:50%;
+      }
+    </style>
 </head>
 <body>
-<iframe src="https://web.programming-hero.com/web-9/video/web-9-4-6-optional-nested-mega-menu-dropdown-option-on-mouseover" frameborder="0"></iframe>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tabel.html">Table</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="form.html">Form</a>
+              <ul class="dropdown">
+                <li><a href="tabel.html">Table</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </header>
+<div>
+  <iframe src="https://web.programming-hero.com/web-9/video/web-9-4-6-optional-nested-mega-menu-dropdown-option-on-mouseover" frameborder="0"></iframe>
+</div>
 
-          <video width="500" height="315" controls>
-            <source src="Dil _ Ek Villain Returns_ John, Disha, Arjun, Tara, Raghav _ Kaushik-Guddu _ Mohit, Ektaa _Bhushan K.mp4" type="video/mp4">
-
-          </video>
+          <div>
+            <video width="500" height="315" controls>
+              <source src="Dil _ Ek Villain Returns_ John, Disha, Arjun, Tara, Raghav _ Kaushik-Guddu _ Mohit, Ektaa _Bhushan K.mp4" type="video/mp4">
+  
+            </video>
+          </div>
+         <div>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/J42SZXS-_Qo?si=IK4TFM5RxspoIHYP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         </div>
 
+         <div>
           <audio controls>
             <source src="Piya Aaye Na - Aashiqui 2 320 Kbps.mp3" type="audio/mp3">
           </audio>
 
+         </div>
+         <div>
           <ol style="border:2px dashed black">
             <li>Month</li>
             <ol style="list-style-type: square;">
@@ -32,8 +63,11 @@
               </li>
             </ul>
           </ol>
+         </div>
 
-          <p id="bad">This is my bad life</p>
+          <div>
+            <p id="bad">This is my bad life</p>
           <p class="allah">Allah please help me!</p>
+          </div>
 </body>
 </html>

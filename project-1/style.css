@@ -1,11 +1,29 @@
-nav> ul> li{
+nav> ul >li{
     display:inline;
-    margin-right: 150px;
+    margin-right: 50px;
     font-size: larger;
 }
+nav li:hover{
+    background-color: antiquewhite;
 
-nav> a{
+}
+nav> ul{
+    display: flex;
+}
+
+nav a{
     text-decoration: none;
+}
+/* nested menu start */
+ nav li .dropdown{
+    
+   display:none; 
+   position:absolute;
+   background-color: azure;
+   list-style: none;
+}
+nav li:hover .dropdown{
+    display: block;
 }
 footer{
     text-align: center;
@@ -15,3 +33,4 @@ label{
     display: block;
     margin-top: 10px;
 }
+
